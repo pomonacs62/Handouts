@@ -210,16 +210,19 @@ Construct a `JPanel` with `new JPanel()`,
 
 ## Layout Managers
 1. `BorderLayout`(*Default for `WindowController`*)
+
     **Constructor:**
     ```
     new BorderLayout()
     ```
 2. **`FlowLayout`**(*Default for `JPanel`*)
+ 
     **Constructor:**
     ```
     new FlowLayout()
     ```
-3. `**GridLayout**`
+3. **`GridLayout`**
+
     **Constructors:**
     ```
     new GridLayout(int rows, int cols)
